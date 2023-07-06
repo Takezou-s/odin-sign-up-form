@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.pic {
+  background-image: url(./images/bag-end.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.brand {
+  position: relative;
+  bottom: 10rem;
+}
+
+.input > label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.input > input:valid {
+  border: 1px solid rgb(39, 202, 148);
+}
+
+.input > input:invalid {
+  border: 1px solid indianred;
+}
